@@ -43,7 +43,7 @@ Before submitting a PR make sure to run:
 - the clippy lints
 
   ```shell
-  cargo clippy
+  cargo clippy --features bashisms --all-targets --all -- -D warnings
   ```
 
 - the test suite
